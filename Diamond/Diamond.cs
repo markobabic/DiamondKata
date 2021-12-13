@@ -30,8 +30,7 @@ namespace Diamond
             return rows
                     .AsEnumerable()
                     .Reverse()
-                    .Skip(1)
-                    .ToList();
+                    .Skip(1);
         }
 
         private string GetLineWithInsertedChars(string line, int i, int index)
